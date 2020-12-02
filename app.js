@@ -43,6 +43,7 @@ app.get('/notifications', function (req, res) {
 })
 
 app.get('/webhooks', function (req, res) {
+    console.log('webhook', req.query)
     res.send(req.query)
 })
 
