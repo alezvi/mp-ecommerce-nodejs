@@ -86,9 +86,9 @@ app.post('/checkout', function (req, res) {
                 number : 22223333,
             },
             address : {
-                zipcode : '1234',
-                street_name : 'Monroe',
-                street_number : 860,
+                zipcode : '1111',
+                street_name : 'False',
+                street_number : 123,
             }
         },
         payment_methods : {
@@ -98,6 +98,7 @@ app.post('/checkout', function (req, res) {
         },
         items: [{
             id: 1234,
+            description : "Dispositivo móvil de Tienda e-commerce",
             title: req.body.title,
             unit_price: Number(req.body.price),
             image : req.body.image,
