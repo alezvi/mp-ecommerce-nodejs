@@ -86,9 +86,9 @@ app.post('/checkout', function (req, res) {
                 number : 22223333,
             },
             address : {
-                zipcode : '1111',
-                street_name : 'False',
-                street_number : 123,
+                zipcode : '1234',
+                street_name : 'Monroe',
+                street_number : 860,
             }
         },
         payment_methods : {
